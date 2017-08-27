@@ -9,7 +9,7 @@ My vim customizatiion
 * vim-irblack https://github.com/wesgibbs/vim-irblack
 * vim-pyte https://github.com/therubymug/vim-pyte
 
-# Include plugin
+# Include plugins
 * ack.vim https://github.com/mileszs/ack.vim
 * ctrlp.vim https://github.com/ctrlpvim/ctrlp.vim
 * django-html
