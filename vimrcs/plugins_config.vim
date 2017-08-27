@@ -117,7 +117,7 @@ nmap <silent> <leader>k :YcmCompleter GetDoc<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => UltiSnips
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:UltiSnipsExpandTrigger       = "<c-k>"
+let g:UltiSnipsExpandTrigger       = "<c-space>"
 let g:UltiSnipsJumpForwardTrigger  = "<c-k>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-j>"
 let g:UltiSnipsListSnippets        = "<c-l>" "List possible snippets based on current file
