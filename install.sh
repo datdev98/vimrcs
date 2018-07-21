@@ -24,7 +24,7 @@ echo "Done"
 
 echo "Update plugins"
 
-python update_plugins.py
+python3 update_plugins.py
 
 cd plugins/YouCompleteMe
 git pull --rebase
@@ -34,8 +34,8 @@ echo "Updated YouCompleteMe"
 echo "Install YouCompleteMe with semantic support for C-family language [y/N]: "
 read a
 if [ $a = 'y' ]; then
-    python install.py --clang-complete;
-else python install.py;
+    python3 install.py --clang-complete;
+else python3 install.py;
 fi
 echo "Done"
 
